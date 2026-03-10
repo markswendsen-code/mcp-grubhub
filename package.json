@@ -1,6 +1,6 @@
 {
   "name": "@striderlabs/mcp-grubhub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Grubhub - let AI agents order food delivery",
   "main": "dist/index.js",
   "bin": {
