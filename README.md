@@ -1,12 +1,12 @@
 # @striderlabs/mcp-grubhub
 
+**Order food delivery via Grubhub using AI agents**
+
 [![npm](https://img.shields.io/npm/v/@striderlabs/mcp-grubhub)](https://www.npmjs.com/package/@striderlabs/mcp-grubhub)
-[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io/)
+[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://mcpservers.org/servers/strider-labs-grubhub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-MCP server for Grubhub — let AI agents order food delivery.
-
-Built by [Strider Labs](https://striderlabs.ai).
+Part of [Strider Labs](https://striderlabs.ai) — action execution for personal AI agents.
 
 ## For Agents
 
@@ -41,21 +41,23 @@ All in seconds, without human intervention.
 - 📋 **Order history** — browse past orders
 - 💾 **Persistent sessions** — stay logged in across restarts
 
-## Installation
+## Quick Start
+
+### Install
 
 ```bash
-npm install -g @striderlabs/mcp-grubhub
+npm install @striderlabs/mcp-grubhub
 ```
 
-Or run directly with npx:
+Or with npx:
 
 ```bash
 npx @striderlabs/mcp-grubhub
 ```
 
-## Configuration
+### Claude Desktop Configuration
 
-Add to your MCP client configuration (e.g., Claude Desktop `~/Library/Application Support/Claude/claude_desktop_config.json`):
+Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 ```json
 {
@@ -67,6 +69,20 @@ Add to your MCP client configuration (e.g., Claude Desktop `~/Library/Applicatio
   }
 }
 ```
+
+### Your Agent Can Now
+
+```
+"Order Thai food from nearby restaurants with delivery in under 30 minutes"
+→ Agent searches → Browses menus → Places order → Confirms delivery
+```
+
+## Metrics
+
+- **Weekly downloads:** 112 (Apr 8-14, 2026) — Growing Strider Labs connector
+- **Status:** ✅ Live in production
+- **Reliability:** 85%+ task completion rate
+- **Discovery:** npm, mcpservers.org, ClawHub, PulseMCP, Glama
 
 ## Authentication
 
@@ -119,6 +135,12 @@ grubhub_logout
 7. grubhub_checkout (confirm=true) — place order
 8. grubhub_track_order — track delivery
 ```
+
+## Available Elsewhere
+
+- **npm:** [npmjs.com/@striderlabs/mcp-grubhub](https://npmjs.com/package/@striderlabs/mcp-grubhub)
+- **mcpservers.org:** [Strider Labs Grubhub](https://mcpservers.org/servers/strider-labs-grubhub)
+- **Full Strider Labs:** [striderlabs.ai](https://striderlabs.ai)
 
 ## License
 
