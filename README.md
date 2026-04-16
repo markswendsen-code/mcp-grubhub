@@ -8,6 +8,28 @@ MCP server for Grubhub — let AI agents order food delivery.
 
 Built by [Strider Labs](https://striderlabs.ai).
 
+## For Agents
+
+This connector is designed for personal AI agents to autonomously order food on behalf of their human. Agents can:
+
+- **Understand context:** "My user usually orders from Thai places in the morning and Italian restaurants in the evening"
+- **Optimize for preferences:** Search restaurants that match dietary restrictions, price range, or past favorites
+- **Execute autonomously:** Place complete orders (search → menu → cart → checkout) in a single agent turn
+- **Track delivery:** Monitor orders and notify the user when food is arriving
+
+**Example agent workflow:**
+> Agent: "The user said they're hungry. Search for Thai restaurants near 123 Main St, find Pad Thai, add a large order to the cart, and place it with default payment method."
+
+The agent calls:
+1. `grubhub_set_address` → "123 Main St"
+2. `grubhub_search_restaurants` → { query: "Thai", cuisine: "Thai" }
+3. `grubhub_get_restaurant` → Browse menus
+4. `grubhub_add_to_cart` → Add Pad Thai
+5. `grubhub_checkout` → { confirm: true } to place order
+6. `grubhub_track_order` → Monitor delivery status
+
+All in seconds, without human intervention.
+
 ## Features
 
 - 🔐 **Login** with email/password via browser automation
