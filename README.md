@@ -79,7 +79,7 @@ Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 ## Metrics
 
-- **Weekly downloads:** 112 (Apr 8-14, 2026) — Growing Strider Labs connector
+- **Weekly downloads:** 123 (Apr 10-17, 2026) — Growing Strider Labs connector
 - **Status:** ✅ Live in production
 - **Reliability:** 85%+ task completion rate
 - **Discovery:** npm, mcpservers.org, ClawHub, PulseMCP, Glama
